@@ -7,4 +7,10 @@ The original owner of the repo has finished the training and evaluation part.
 And I add some functions that can make it more easily trained on the dataset of the HW4.
 <br />
 #### FILE DESCRIPTION:
+* tiny_pascal_train_head.py:
+Load the dataset and train the only head layers of the network for 100 epoches.
+* tiny_pascal.py:
+Load the dataset and fine-tune all the layers of the network in 3 stages for totally 160 epoches.
 
+tiny_pascal_train_head.py and tiny_pascal.py are reference to the coco.py in the folder samples/coco/ of the original repo, I have done
+some changes to read the json file and devide the dataset to train(1000 imgs) and valid(imgs).
