@@ -12,5 +12,5 @@ Load the dataset and train the only head layers of the network for 100 epoches.
 * `tiny_pascal.py`:
 Load the dataset and fine-tune all the layers of the network in 3 stages for totally 160 epoches.
 
-These two files are reference to the `coco.py` in the folder `samples/coco/` of the original repo, I have done
-some changes to read the json file and devide the dataset to train(1000 imgs) and valid(imgs), and both of them are put under the folder `tiny_pascal/`
+These two files are reference to the `coco.py` under the folder `samples/coco/` of the original repo, I have done
+some changes to read the json file and devide the dataset to train(1000 imgs) and valid(imgs), and both of them are put under the folder `tiny_pascal/` in this repo.
