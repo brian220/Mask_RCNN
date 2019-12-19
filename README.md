@@ -14,3 +14,6 @@ Load the dataset and fine-tune all the layers of the network in 3 stages for tot
 
 tiny_pascal_train_head.py and tiny_pascal.py are reference to the coco.py in the folder samples/coco/ of the original repo, I have done
 some changes to read the json file and devide the dataset to train(1000 imgs) and valid(imgs).
+<br />
+<br />
+tiny_pascal_train_head.py and tiny_pascal.py are put in the folder tiny_pascal/
